@@ -25,7 +25,7 @@ h3 {
   justify-content: center;
   width: 50vw;
   height: 80vh;
-  margin: 5vh 0 auto;
+  margin: 5vh auto 0;
   max-height: 1000px;
   background-color: #b692c2;
   border-radius: 3vh;
@@ -68,7 +68,7 @@ h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 60vw;
   height: 76vh;
-  margin: 5vh 0 auto;
+  margin: 5vh auto 0;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
@@ -236,7 +236,7 @@ h3 {
   justify-content: center;
   height: 80vh;
   width: 50vw;
-  margin: 5vh 0 auto;
+  margin: 5vh auto 0;
   background-color: #b692c2;
   text-align: center;
   border-radius: 3vh;
