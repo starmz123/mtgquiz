@@ -1,2 +1,1 @@
-# mzmtg.github.io
-Miranda's Magic: The Gathering framework
+# Miranda's Magic: The Gathering framework
