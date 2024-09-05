@@ -1,1 +1,1 @@
-# Miranda's Magic: The Gathering framework
+# Miranda's quiz for her Magic: The Gathering framework
