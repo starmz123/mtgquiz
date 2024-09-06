@@ -14,6 +14,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const resultsPage = document.getElementById("results-page");
   const retakeQuizBtn = document.getElementById("retake-quiz-btn");
 
+  // Ensure all links open in a new tab
+  document.querySelectorAll("a").forEach((link) => {
+    link.setAttribute("target", "_blank");
+  });
+
   function showQuestion(index) {
     questions[currentQuestionIndex].classList.remove("active");
     questions[currentQuestionIndex].classList.add("inactive");
@@ -182,8 +187,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //Framework button
     const frameworkBtn = document.getElementById("framework-btn");
     frameworkBtn.addEventListener("click", () => {
-      window.location.href =
-        "https://luxaequoris.notion.site/miranda-s-MTG-typology-8e836f51d8394f1f959ce4b35af6ab94?pvs=4";
+      window.open(
+        "https://luxaequoris.notion.site/miranda-s-MTG-typology-8e836f51d8394f1f959ce4b35af6ab94?pvs=4",
+        "_blank"
+      );
     });
   }
 
@@ -234,10 +241,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   }
 
-  /* TESTING: always show the button 
+  /* TESTING: always show the button */
   function updateCalculateBtnVisibility() {
     calculateBtn.style.display = "block";
-  } */
+  }
 
   // Ensure the first question is shown by default and others are hidden
   questions.forEach((question, index) => {
