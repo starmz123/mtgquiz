@@ -241,10 +241,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   }
 
-  /* TESTING: always show the button 
+  /* TESTING: always show the button */
   function updateCalculateBtnVisibility() {
     calculateBtn.style.display = "block";
-  } */
+  }
 
   // Ensure the first question is shown by default and others are hidden
   questions.forEach((question, index) => {
